@@ -22,5 +22,9 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		double mass = (120*2+200)*1.08;
+		double result = moneyInHand-mass;
+		System.out.println((int)result);
+
 	}
 }
