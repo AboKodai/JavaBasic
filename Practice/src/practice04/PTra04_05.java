@@ -70,7 +70,6 @@ public class PTra04_05 {
 
 
 			}
-			System.out.println("あなたの勝ち");
 
 		}
 	}
