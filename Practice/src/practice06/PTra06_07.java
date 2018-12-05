@@ -24,6 +24,32 @@ public class PTra06_07 {
 		 * ■■□□□
 		 * ■□□□□
 		 */
+		for(int n = 0; n < 10; n++) {
+			switch(n) {
+			case 0:
+				System.out.println("□□□□□");
+				break;
+			case 1:
+			case 9:
+				System.out.println("■□□□□");
+				break;
+			case 2:
+			case 8:
+				System.out.println("■■□□□");
+				break;
+			case 3:
+			case 7:
+				System.out.println("■■■□□");
+				break;
+			case 4:
+			case 6:
+				System.out.println("■■■■□");
+				break;
+			case 5:
+				System.out.println("■■■■■");
+				break;
+			}
+		}
 
 	}
 }

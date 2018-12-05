@@ -16,6 +16,16 @@ public class PTra07_06 {
 		};
 
 		// ★ 配列arrayに格納されている全ての数字の平均を出力してください
+		int mass = 0;
+		int number = 0;
+		for(int i = 0; i < array.length; i++) {
+			for(int j = 0; j < array[i].length; j++) {
+				mass += array[i][j];
+			}
+			number += array[i].length;
+		}
+		int average = mass/number;
+		System.out.println(average);
 
 	}
 }
