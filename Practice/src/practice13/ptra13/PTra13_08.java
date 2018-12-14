@@ -16,6 +16,7 @@ public class PTra13_08 {
 	 * 		departmentCnt（部署人数）	:	int
 	 * メソッド
 	 * 		各フィールドのアクセサ
+	 * 				終了
 	 */
 
 }

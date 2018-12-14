@@ -51,6 +51,10 @@ public class Character {
 	public String getName() {
 		return this.name;
 	}
+	
+	public int getHp() {
+		return this.hp;
+	}
 
 	/**
 	 * 攻撃を行います

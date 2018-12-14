@@ -19,6 +19,7 @@ public class PTra13_06 {
 	 * 		powerに加えて、additionalDamage分を加算した値としてください
 	 *
 	 * 		equipmentのアクセサ
+	 * 				終了
 	 */
 
 }
