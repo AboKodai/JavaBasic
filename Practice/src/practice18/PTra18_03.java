@@ -10,7 +10,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.function.Predicate;
 
 import entity.Player;
 
@@ -46,19 +45,21 @@ public class PTra18_03 {
 		}
 
 		// ★ ①のArrayListの中から"レアル・マドリード", "バルセロナ"の選手を除外してください
-
-		for(int i = 0; i < array.size(); i++) {
-			array.remove(Predicate<"レアルマドリード">)s;
+		
+		
+		for(int i = array.size()-1; i >= 0; i--) {
+			
+			Player plArray = array.get(i);
+			if(plArray.getTeam().equals("レアル・マドリード")||plArray.getTeam().equals("バルセロナ")) {
+				array.remove(i);
+			}
+			
 		}
 
-//		for (Player str : array) {
-//			if (str.getTeam().equals("レアル・マドリード") || str.getTeam().equals("バルセロナ")) {
-//				continue;
-//			}
-//			System.out.println(str);
-//		}
-
 		// ★ 削除後のArrayListの中身を全件出力してください
+		for(Player str : array) {
+			System.out.println(str);
+		}
 
 	}
 }
